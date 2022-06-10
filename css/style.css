@@ -314,7 +314,7 @@ overflow: hidden;
   background-position: -60px -540px;
 }
 
-/* 게시판1 */
+/* 게시판 1 */
 .notice {
   position: relative;
 }
@@ -344,7 +344,7 @@ overflow: hidden;
   height: 17px;
 }
 
-/* 게시판2 */
+/* 게시판 2 */
 .notice2 {
   position: relative;
   margin-top: 15px;
@@ -375,6 +375,46 @@ overflow: hidden;
   text-align: right;
 }
 .notice2 a.more {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: url(../img/icon.png) no-repeat -150px -90px; 
+  width: 17px; 
+  height: 17px;
+}
+
+/* 게시판 3 */
+.notice3 {
+  position: relative;
+}
+.notice3 h4{
+  font-size: 14px;
+  font-weight: bold;
+  color: #0093bd;
+  padding-bottom: 3px;
+}
+.notice3 li{  
+  position: relative;
+  padding: 8px 0 14px 60px;
+}
+.notice3 li a img{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50px;
+  border: 1px solid #0093bd;
+}
+.notice3 li a strong{
+  display: block;
+}
+.notice3 li a span{
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 12px;
+}
+.notice3 a.more{
   position: absolute;
   right: 0;
   top: 0;
