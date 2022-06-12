@@ -670,7 +670,8 @@ text-align: right;
   
 
 /* 로그인 */
-#login_form {
+#login-wrap {
+  margin-bottom: 15px;
   background: #f2f4f5;
   padding: 15px;
 }
@@ -722,4 +723,29 @@ text-align: right;
 }
 .login_footer li a {
   font-size: 12px;
+}
+
+/* 팝업 */
+.popup {
+}
+.popup h4 {
+  font-size: 14px;
+  color: #0093bd;
+  font-weight: 700;
+  padding-bottom: 4px;
+}
+.popup ul {
+  overflow: hidden;
+}
+.popup ul li {
+  float: left;
+  width: 93px;
+  margin-right: 5px;
+}
+.popup ul li.last {
+  margin-right: 0;
+}
+.popup ul li a {}
+.popup ul li img {
+  width: 100%;
 }
