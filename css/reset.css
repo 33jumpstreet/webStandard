@@ -61,6 +61,11 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
 }
 
+/* 테두리 초기화 */
+img, fieldset {
+  border: 0 none;
+}
+
 /* margin, padding */
 .mt10 {margin-top: 10px !important;}
 .mt15 {margin-top: 15px !important;}
