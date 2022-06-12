@@ -32,6 +32,7 @@
 /* 컨텐츠 레이아웃 */
 #cont_nav {
   background: #f6fdff;
+  display: none;
 }
 #cont_tit {
   background: #EAF7FD;
@@ -168,6 +169,9 @@ overflow: hidden;
   width: 60px;
   height: 60px;
   background: url(../img/icon.png) no-repeat 0 -600px;
+}
+.tit .btn.on {
+  background-position: 0 -660px;
 }
 
 /* 배너 */
