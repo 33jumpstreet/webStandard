@@ -175,7 +175,7 @@ overflow: hidden;
 }
 
 /* 배너 */
-.ban {
+/* .ban {
   position: relative;
   padding: 24px 0 20px;
 }
@@ -195,18 +195,27 @@ overflow: hidden;
   height: 43px;
   background: url(../img/icon.png) no-repeat -150px -43px;
 }
+.ban a.prev:hover {
+  background-position: 193px 0;
+}
+.ban a.next:hover {
+  background-position: 193px -43px;
+}
 .ban ul{
   overflow: hidden;
 }
 .ban ul li{
   float: left;
   width: 330px;
-}
-.ban ul li:nth-child(2) {
-  text-align: center; /* IE9 이후에서 적용가능 */
-}
-.ban ul li:last-child {
-  text-align: right; /* IE9 이후에서 적용가능 */
+} */
+
+/* IE9 이후에서 적용가능 */
+/* .ban ul li:nth-child(2) {
+  text-align: center; 
+} */
+/* IE9 이후에서 적용가능 */
+/* .ban ul li:last-child {
+  text-align: right; 
 }
 .ban ul li.ban_img1 {
   text-align: left;
@@ -222,8 +231,73 @@ overflow: hidden;
 }
 .ban ul li img:hover {
   border-color: #98bcdc;
-}
+} */
 
+/* 슬릭 배너 */
+.ban {
+  position: relative;
+  padding: 24px 0 40px;
+}
+.ban .slick-prev {
+  position: absolute; 
+  left: -80px; 
+  top: 80px;
+  width: 43px; 
+  height: 43px;
+  background: url(../img/icon.png) no-repeat -150px 0;
+  text-indent: -9999px;
+}
+.ban .slick-next {
+  position: absolute; 
+  right: -80px; 
+  top: 80px;
+  width: 43px; 
+  height: 43px;
+  background: url(../img/icon.png) no-repeat -150px -43px;
+  text-indent: -9999px;
+}
+.ban .slick-prev:hover {
+  background-position: -193px 0;
+}
+.ban .slick-next:hover {
+  background-position: -193px -43px;
+}
+.ban img {
+  border: 4px solid #dcdcdc;
+}
+.ban img:hover {
+  border-color: #98bcdc;
+}
+.ban .slick-slide {
+  margin: 10px;
+}
+.ban .slick-dots {
+  position: absolute;
+  bottom: 15px;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.ban .slick-dots li {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: 5px;
+
+}
+.ban .slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  background: #5dbfeb;
+  border-radius: 50%;
+}
+.ban .slick-dots li.slick-active button {
+  background: #2b91c8;
+}
 /* 컨텐츠 */
 .cont {
   overflow: hidden;
