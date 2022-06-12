@@ -607,3 +607,64 @@ text-align: right;
   right:9px;
   top: 9px;
 }
+
+/* 갤러리 */
+.gallery {
+  position: relative;
+  border: 1px solid #ccc;
+  height: 245px;
+  overflow: hidden;
+}
+.gallery h4 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #0093bd;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0 8px 11px;
+}
+.gallery .gallery_btn{
+  position: absolute;
+  top: 5px;
+  right: 7px;
+}
+.gallery .gallery_btn ul {
+  overflow: hidden;
+}
+.gallery .gallery_btn li {
+  float: left;
+  margin: 1px 2px;
+}
+.gallery .gallery_btn li a {
+  display: block;
+  background: url(../img/icon.png) no-repeat;
+  width: 23px;
+  height: 23px;
+}
+.gallery .gallery_btn li.gb_icon1 a {
+  background-position: -150px -120px;
+}
+.gallery .gallery_btn li.gb_icon2 a {
+  background-position: -150px -143px;
+}
+.gallery .gallery_btn li.gb_icon3 a {
+  background-position: -150px -166px;
+}
+.gallery .gallery_btn li.gb_icon4 a {
+  background-position: -150px -189px;
+}
+.gallery .gallery_btn li.gb_icon1 a:hover {
+  background-position: -173px -120px;
+}
+.gallery .gallery_btn li.gb_icon2 a:hover {
+  background-position: -173px -143px;
+}
+.gallery .gallery_btn li.gb_icon3 a:hover {
+  background-position: -173px -166px;
+}
+.gallery .gallery_btn li.gb_icon4 a:hover {
+  background-position: -173px -189px;
+}
+.gallery .gallery_img img {
+  width: 100%;
+}
+  
